@@ -1,0 +1,14 @@
+// BlueprintGeneratedClass ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C
+// Size: 0x28 (Inherited: 0x28)
+struct UItemStatsFunctionLibrary_C : UBlueprintFunctionLibrary {
+
+	void DetemineSuffix(enum class EYItemStatsType Selection, struct UObject* __WorldContext, struct FText suffix); // Function ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C.DetemineSuffix // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1e02480
+	void ShowAsPercentage(enum class EYItemStatsType Selection, struct UObject* __WorldContext, bool Result); // Function ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C.ShowAsPercentage // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1e02480
+	void IsHigherStatPositive(enum class EYItemStatsType Selection, struct UObject* __WorldContext, bool Result); // Function ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C.IsHigherStatPositive // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1e02480
+	void DetermineForcedMaxFloatFractionDigits(enum class EYItemStatsType Type, struct UObject* __WorldContext, int32_t Result); // Function ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C.DetermineForcedMaxFloatFractionDigits // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1e02480
+	void ShouldDisplayAsTextInsteadOfFloat(enum class EYItemStatsType Type, struct UObject* __WorldContext, bool Return); // Function ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C.ShouldDisplayAsTextInsteadOfFloat // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1e02480
+	void TransformFloatToText(float Value, int32_t MaxFractionDigitsAllowed, struct UObject* __WorldContext, struct FText Result); // Function ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C.TransformFloatToText // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1e02480
+	void FormatTextString(bool IsPecentage, bool ShowAsBasePercentage, float Value, bool ShowSign, bool ShowValueAsText, int32_t MaxFractionDigitsAllowed, struct FText suffix, struct UObject* __WorldContext, struct FText Result); // Function ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C.FormatTextString // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x1e02480
+	void SetupTextWidgetsBasedOnItemStats(struct FYStatsTypeDataEntry YStatsTypeDataEntry, struct UTextBlock* TextWidget_TitleName, struct UTextBlock* TextWidget_BaseValue, struct UWidget* Widget_ParentShowDifference, struct UTextBlock* TextWidget_DifferenceValue, struct FText OptionalTitleNameOverride, struct UObject* __WorldContext); // Function ItemStatsFunctionLibrary.ItemStatsFunctionLibrary_C.SetupTextWidgetsBasedOnItemStats // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1e02480
+};
+
